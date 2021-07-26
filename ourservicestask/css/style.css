@@ -1,0 +1,176 @@
+*::after ::before {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #f6f7f8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Header {
+    font-size: 15px;
+    color: #808080;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.Header h2 {
+    color: #808080;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 36px;
+    font-weight: 100;
+}
+
+.Header h2 span {
+    color: #808080;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-size: 36px;
+}
+
+.sign {
+    width: 65px;
+    height: 4px;
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    display: block;
+    margin: 10px auto;
+    margin-top: 10px;
+    transition: all 0.3s linear;
+}
+
+.sign:hover {
+    width: 50px;
+    height: 2px;
+}
+
+.mainpart p {
+    font-family: 'Open Sans', sans-serif;
+    color: #808080;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 52px;
+    text-align: center;
+    display: block;
+    size: letter;
+}
+
+.list {
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 43px;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #0f0606;
+    cursor: pointer;
+}
+
+.list :first-child {
+    color: #24cdd5;
+}
+
+.list :hover {
+    color: #24cdd5;
+    transition: all 0.2s linear;
+}
+
+.image {
+    overflow: hidden;
+}
+
+.image img {
+    position: relative;
+    width: 100%;
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.data h1 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    color: #384141;
+    letter-spacing: 0.5px;
+    padding: 9px 11px;
+    font-size: 21px;
+    font-weight: 600;
+    text-align: start;
+    transition: all 0.1s linear;
+}
+
+.text p {
+    color: #808080;
+    background-color: #fff;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 9px 11px;
+}
+
+.botton {
+    font-size: 16px;
+    color: #808080;
+    margin-left: 6px;
+    margin-top: -5px;
+}
+
+.botton h4 {
+    margin-top: 15px;
+    margin-left: inherit;
+    background-color: #ffffff;
+    font-weight: 400;
+}
+
+.botton ::after {
+    content: '';
+    width: 45px;
+    height: 2px;
+    background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+    display: block;
+    margin-left: 4%;
+    margin-top: 5px;
+    transition: all 0.2s linear;
+}
+
+.botton:hover ::after {
+    margin-left: 0%;
+}
+
+#pro {
+    margin-top: 30px;
+}
+
+.text {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2rem 1rem;
+    margin-top: -30px;
+    background-color: #ffffff;
+    z-index: 5;
+    position: relative;
+    cursor: pointer;
+}
+
+.item:hover h1 {
+    color: #24cdd5;
+}
+
+.item:hover .image img {
+    transform: scale(1.1, 1.1);
+    background-size: contain;
+}
+
+.item {
+    padding: 18px;
+    overflow: hidden;
+}
