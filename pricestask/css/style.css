@@ -1,0 +1,237 @@
+        *::after ::before {
+            box-sizing: border-box;
+        }
+        
+        body {
+            background-color: #ffffff;
+        }
+        
+        .header {
+            font-family: 'Montserrat', sans-serif;
+            margin-top: 40px;
+        }
+        
+        .price {
+            text-align: center;
+            font-weight: 200;
+            font-size: 45px;
+            color: #696969;
+        }
+        
+        .price span {
+            font-weight: 300;
+        }
+        
+        .divide {
+            width: 70px;
+            height: 4px;
+            background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+            display: block;
+            margin-left: 47%;
+            margin-top: -18px;
+        }
+        
+        .monthly {
+            background-image: linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);
+            padding: 10px 110px;
+            border-radius: 60px;
+            font-size: 14px;
+            font-weight: 600;
+            color: white;
+            background-color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        .yearly {
+            background-color: white;
+            padding: 10px 110px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #696969;
+            font-family: 'Open Sans', sans-serif;
+            cursor: pointer;
+        }
+        
+        .PlanDuration {
+            text-align: center;
+            margin-top: 57px;
+            margin-right: 117px;
+        }
+        
+        #prices {
+            padding: 50px;
+            margin-top: 15px;
+        }
+        
+        .item {
+            background-color: white;
+            display: inline-block;
+            padding: 25px;
+            height: 500px;
+            width: 300px;
+            box-shadow: 0 0 10px rgb(0 0 0 / 12%);
+            position: relative;
+        }
+        
+        .item .sale {
+            position: absolute;
+            top: -18px;
+            right: 10px;
+            font-size: 60px;
+            color: #E84455;
+        }
+        
+        .item .saleprice {
+            top: -19px;
+            color: white;
+            left: 274px;
+            font-family: 'Open Sans';
+            position: inherit;
+            font-weight: bolder;
+            font-size: 13px;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .item:hover .saleprice {
+            transition: all 0.3s ease-in-out;
+            position: absolute;
+        }
+        
+        .item .saleword {
+            position: absolute;
+            color: white;
+            transition: all 0.3s ease-in-out;
+            font-weight: bolder;
+            font-size: 13px;
+            font-family: 'Open Sans';
+            top: -19px;
+            left: 280px;
+        }
+        
+        .item:hover .saleword {
+            position: inherit;
+        }
+        
+        .item .head {
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            color: #808080;
+        }
+        
+        .head h1 {
+            font-size: 22.5px;
+            font-family: 'Montserrat', sans-serif;
+            color: #384141;
+            font-weight: 300;
+            margin: 0 auto;
+        }
+        
+        .head p {
+            margin-bottom: 30px;
+            margin-top: 0px;
+            font-weight: normal;
+            line-height: 1.7;
+        }
+        
+        .content h3 {
+            padding: 15px 0 14px 0;
+            border-top: 1px solid rgba(139, 144, 157, 0.18);
+            border-bottom: 1px solid rgba(139, 144, 157, 0.18);
+            font-size: 17px;
+            text-align: center;
+            font-family: 'Open Sans', sans-serif;
+            font-weight: lighter;
+            list-style: none;
+        }
+        
+        .content span {
+            font-size: 45px;
+        }
+        
+        .icon ul>li>i {
+            font-size: 15px;
+            margin-bottom: 30px;
+            color: #B2CB20;
+            font-weight: 200px;
+            margin-right: 8px;
+        }
+        
+        .icon span {
+            font-family: 'Open Sans', sans-serif;
+            color: #808080;
+        }
+        
+        .icon ul>li>i.red {
+            color: #E84455;
+        }
+        
+        .item button {
+            display: inline-block;
+            margin-left: 80px;
+            padding: .8rem 2.25rem;
+            bottom: 53px;
+            background-color: #24cdd5;
+            border-radius: 30px;
+            cursor: pointer;
+            color: white;
+            border-color: #24ccd500;
+            text-align: center;
+            border-style: solid;
+            border-width: thin;
+            font-weight: 500;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 15px;
+            padding: .8rem 2.25rem;
+            line-height: 1;
+        }
+        
+        .icon ul {
+            list-style: none;
+        }
+        
+        .item:hover {
+            background-color: #26313c;
+            color: white;
+            transition: all 0.2s;
+        }
+        
+        .item:hover .head {
+            color: white;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .item:hover .head h1 {
+            color: white !important;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .item:hover button {
+            background-color: #26313c;
+            border-color: white;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .item button:hover {
+            background-color: white;
+            color: #384141;
+            border-color: #26313c;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .item:hover .icon ul li i {
+            color: white;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .item:hover .icon span {
+            color: white;
+            transition: all 0.3s ease-in-out;
+        }
+        
+        .fa.fas {
+            font-weight: 200px;
+        }
+        
+        .col-4 {
+            overflow: hidden;
+        }
